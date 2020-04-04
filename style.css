@@ -1,0 +1,38 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	color:white;
+
+
+}
+hr{
+	border:1px solid orange;
+	width:50px;
+}
+.btn{
+	background-color:orange;
+	color:white;
+	border-color:orange;
+	padding: 1rem 2rem;
+	border-radius: 300px 300px;
+	
+}
+.btn:hover{
+	transform:scale(1.05); 
+	background-color:red;
+	border-color:red;
+	color:white;
+
+}
+.center{
+	justify-content: center;
+	text-align: center;
+}
